@@ -45,15 +45,6 @@
     .steps_item-text {
         font-size: 16px;
     }
-    .steps_items {
-        margin-left: 0;
-        margin-bottom: -20px;
-    }
-    .steps_items > * {
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 20px;
-    }
     .advantages_items {
         flex-direction: column;
     }
@@ -71,7 +62,7 @@
         margin-bottom: 25px;
     }
     .request_title {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     .request form .line {
         flex-direction: column;
@@ -82,12 +73,28 @@
         margin-left: 0;
         margin-bottom: 10px;
     }
-    .footer .row {
+    .footer-top {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .footer-contact {
+        text-align: center;
+        margin-top: 20px;
+    }
 
 
+}
 
+
+@media print, (max-width: 630px) {
+    .steps_items {
+        margin-left: 0;
+        margin-bottom: -20px;
+    }
+    .steps_items > * {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
 }

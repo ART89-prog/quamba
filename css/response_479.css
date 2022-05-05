@@ -2,10 +2,13 @@
 
     :root {
         --font_size: 16px;
-        --font_size_title: 26px;
+        --font_size_title: 32px;
     }
     .cont {
         padding: 0 15px;
+    }
+    .title {
+        line-height: 35px;
     }
     .block {
         padding: 20px 0;
@@ -44,16 +47,16 @@
         line-height: 25px;
         text-align: center;
     }
-    .slick-dots {
+    .advantages_slider .slick-dots {
         display: flex;
         justify-content: center;
         list-style: none;
         margin-top: 30px;
     }
-    .slick-dots button {
+    .advantages_slider .slick-dots button {
         font-size: 0px;
     }
-    .slick-dots li {
+    .advantages_slider .slick-dots li {
         background: #C9C9C9;
         border-radius: 90px;
         width: 9px;
@@ -61,8 +64,63 @@
         margin-left: 8px;
         margin-right: 8px;
     }
-    .slick-dots .slick-active {
+    .advantages_slider .slick-dots .slick-active {
         background: #56994C;
+    }
+    .header_logo img {
+        width: 40%;
+    }
+    .header-contact .phone {
+        display: none;
+    }
+    .callback_btn {
+        height: 45px;
+    }
+    .header-info_title {
+        font-size: 29px;
+    }
+    .header-top {
+        margin-bottom: 55px;
+    }
+    .header-info_text {
+        font-size: 17px;
+    }
+    .header-info .callback_btn {
+        height: 50px;
+    }
+    .title::before {
+        bottom: -12px;
+    }
+    .services_items {
+        margin-left: 0;
+        margin-bottom: -20px;
+    }
+    .services_items > * {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 27px;
+    }
+    .request form .field input {
+        height: 50px;
+    }
+    .request form .callback_btn {
+        height: 50px;
+        margin-top: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .request form .callback_btn span {
+        margin-right: 20px;
+    }
+    .footer_logo img {
+        width: 40%;
+    }
+    .footer-contact .phone a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .footer-contact .email a {
+        line-height: 40px;
     }
 
 

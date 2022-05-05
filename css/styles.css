@@ -433,6 +433,7 @@ header {
     display: block;
 }
 .callback_btn {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -783,6 +784,7 @@ footer {
     padding: 34px 0;
 }
 .footer-top {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -837,45 +839,31 @@ footer {
 .modal {
     display: none;
     visibility: visible !important;
-    width: 408px;
+    width: 652px;
     max-width: 100%;
-    padding: 40px 30px 10px;
+    padding: 68px 62px 62px;
     background: #FFFFFF;
-    border-radius: 20px;
+    box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+}
+.modal img {
+    margin: 0 auto;
+    display: block;
 }
 .modal_title {
     font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 32px;
-    color: #000000;
-    margin-bottom: 11px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 147.8%;
+    text-align: center;
+    color: #212121;
+    margin-top: 29px;
 }
 .modal_text {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;  
-    margin-bottom: 20px;  
+    font-size: 18px;
+    line-height: 147.8%;
+    text-align: center;
+    color: #212121; 
+    margin-top: 3px;
 }
-.fancybox-slide--html .fancybox-close-small {
-    color: #000;
-    top: 0;
-    right: 0;
-    width: 29px;
-    height: 29px;
-    padding: 10px;
-    transition: color .2s linear;
-    opacity: 1;
-    padding: 3px !important;
-    background-color: #fad31a;
-    border-bottom-left-radius: 6px;
-    border-top-right-radius: 6px;
-}
-.fancybox-button svg {
-    position: relative;
-    display: block;
-    overflow: visible;
-    width: 100%;
-    height: 100%;
-}
+
