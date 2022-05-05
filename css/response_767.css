@@ -1,242 +1,93 @@
 @media print, (max-width: 767px) {
 
     :root {
-        --font_size_title: 24px;
+        --font_size_title: 32px;
+        --font_size: 15px;
     }
-    header .contacts {
-        display: none !important;
+    .block {
+        padding: 30px 0;
     }
-    .contacts_mob {
-        display: block !important;
-    }
-    .first_section-img {
-        display: none !important;
-    }
-    .first_section-img-mob {
-        display: block !important;
-    }
-    .first_section .cont {
+ 
+    .header-top {
         flex-direction: column;
     }
-    .first_section {
-        padding: 0 20px;
-    }
-    .first_section .info {
-        max-width: 100%;
-    }
-    .first_section-img-mob img {
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-    }
-    .first_section .btns {
-        flex-direction: column;
-    }
-    .first_section-wrap {
-        padding: 20px;
-    }
-    .btn-white {
-        width: 100%;
-        max-width: 100%;
-        margin-bottom: 20px;
-        margin-right: 0px;
-    }
-    .first_section .btns {
-        margin-right: 0px;
-    }
-    .btn-blau {
-        width: 100%;
-    }
-    .company_items > * {
-        width: calc(100%/2 - 30px);
-    }
-    .application-form_img {
-        display: none;
-    }
-    .question_wrap {
-        flex-direction: column;
-    }
-    .question_form {
-        max-width: 100%;
-        margin-top: 20px;
-    }
-    .advantages_item-img-mob {
-        display: block!important;
-    }
-    .advantages_item-img {
-        display: none!important;
-    }
-    .advantages_item-info {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 20px;
-    }
-    .advantages_item-title {
-        margin-bottom: 0;
-        margin-left: 17px;
-        font-size: 21px;
-        line-height: 25px;
-    }
-    .tarif_items {
-        padding: 0;
-        flex-direction: column-reverse;
-        margin-left: 0;
-    }
-    .tarif_items > * {
-        max-width: 390px;
-        width: 100%;
+    .header_logo {
         margin-bottom: 30px;
-        margin-left: 0;
     }
-    .first_section-wrap {
-        border-radius: 20px;
+    .header-contact {
+        flex-direction: row;
     }
-    .company_item-text {
-        font-size: 13px;
-        line-height: 13px;
-        padding: 6px 10px;
-        bottom: 9px;
-        left: 9px;
-        border-radius: 6px;
+    .header-contact .phone a {
+        margin-right: 30px;
+        margin-bottom: 0px;
     }
-    .company_item img {
-        border-radius: 10px;
+    .header-info_title {
+        font-size: 30px;
     }
-    .callback_form {
-        padding: 30px 30px 15px;
-    }
-    .first_section-title {
-        font-size: 24px;
-        line-height: 36px;
-    }
-    .first_section-desc {
+    .header-info_text {
         font-size: 18px;
-        line-height: 20px;
+    }
+    .services_item-title {
+        font-size: 20px;
+        line-height: 25px;
         margin-top: 12px;
-        margin-bottom: 20px;
     }
-    .company {
-        margin-top: 40px;
-        margin-bottom: 40px;
+    .services_item-text {
+        font-size: var(--font_size);
+        margin-top: 13px;
     }
-    .company_items {
+    .title::before {
+        bottom: 4px;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    .steps_item-text {
+        font-size: 16px;
+    }
+    .steps_items {
+        margin-left: 0;
         margin-bottom: -20px;
     }
-    .company_items > * {
+    .steps_items > * {
+        width: 100%;
+        margin-left: 0;
         margin-bottom: 20px;
     }
-    .application-form {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .advantages {
-        margin-top: 40px;
-    }
-    .tarif {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        margin-top: 40px;
-    }
-    .additionally {
-        margin-top: 40px;
-        padding-bottom: 20px;
-    }
-    .reviews_item {
+    .advantages_items {
         flex-direction: column;
     }
-    .reviews_item-info {
-        margin-left: 0px;
+    .advantages_item-box {
+        max-width: 100%;
+        margin-bottom: 25px;
     }
-    .reviews_item-company {
-        margin-bottom: 0;
-    }
-    .reviews_item-img {
-        width: 100%;
-        height: 100%;
-    }
-    .reviews_item {
-        padding: 20px;
-    }
-    .contacts {
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
-    .contacts_items {
-        margin-bottom: 0;
-    }
-    .reviews_title {
-        margin-bottom: 20px;
-    }
-    .question {
-        padding-top: 40px;
-        padding-bottom: 23px;
-    }
-    .question_wrap {
-        padding: 20px;
-    }
-    .question_title {
+    .advantages_item-box-title {
+        font-size: 20px;
         margin-bottom: 10px;
     }
-    .question .submit_btn {
-        margin-top: 0;
+    .request_subtitle {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 25px;
     }
-    .footer_text {
-        margin-left: 110px;
+    .request_title {
+        margin-bottom: 15px;
     }
-    .additionally_item-text {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .additionally_item-title {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .modal {
-        padding: 30px 15px 5px;
-    }
-
-
- 
-    
-
-   
-}
-
-
-@media print, (max-width: 600px) {
-    .contacts_items {
-        column-count: 1;
-    }
-    footer .cont {
+    .request form .line {
         flex-direction: column;
-        align-items: flex-start;
+        margin-left: 0px;
+        margin-bottom: 10px;
     }
-    .footer_text {
+    .request form .line > * {
         margin-left: 0;
-        margin-top: 30px;
+        margin-bottom: 10px;
     }
-    footer {
-        padding: 40px 0 25px;
-    }
-    .additionally_items {
-        margin-left: 0;
-    }
-    .additionally_items > * {
-        width: 100%;
-        margin-left: 0;
-    }
-    .benefits_list li {
-        font-size: 14px;
+    .footer .row {
         flex-direction: column;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
-    .benefits_list li img {
-        margin-right: 0px;
-        margin-bottom: 11px;
-    }
-    .additionally_item-title br {
-        display: none;
-    }
+
+
 
 }

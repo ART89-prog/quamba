@@ -1,6 +1,6 @@
 $(() => {
 
-    $('.reviews_items').slick({
+    $('.advantages_slider').slick({
         infinite: true,
         dots: false,
         arrows: true,
