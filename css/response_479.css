@@ -1,0 +1,74 @@
+@media (max-width: 479px) {
+
+    :root {
+        --font_size: 14px;
+        --font_size_title: 24px;
+    }
+
+    .cont {
+        padding: 0 15px;
+    }
+    .first_section {
+        padding: 0 15px;
+    }
+    .additionally_items {
+        padding: 0;
+    }
+    .advantages_item-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .advantages_item-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .first_section-list {
+        margin-top: 20px;
+    }
+    label.checkbox {
+        text-align: start;
+        line-height: 19px;
+    }
+    .tarif_item {
+        padding: 30px;
+    }
+    .callback_form {
+        padding: 20px 20px 15px;
+    }
+
+    .company_title {
+        max-width: 350px;
+    }
+    .company_title br {
+        display: block;
+    }
+    .application-form_title br {
+        display: block;
+    }
+    .advantages_title br {
+        display: block;
+    }
+    .tarif_title br {
+        display: block;
+    }
+    .additionally_title br {
+        display: block;
+    }
+    .question_text {
+        font-size: 16px;
+    }
+    .advantages_item-text br {
+        display: block;
+    }
+    .additionally_item-text br {
+        display: block;
+    }
+    .first_section-title br {
+        display: block;
+    }
+    .first_section-list span br {
+        display: block;
+    }
+
+
+}

@@ -1,0 +1,153 @@
+@media print, (max-width: 1187px) {
+  
+    :root {
+        --font_size_title: 40px;
+    }
+    html.custom_scroll ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+    .first_section-title {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .first_section-wrap {
+        padding: 40px;
+    }
+    .first_section-desc {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .first_section-list li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .first_section-img img {
+        width: 100%;
+    }
+    .first_section-img {
+        flex-shrink: 1;
+    }
+    .first_section-list {
+        max-width: 838px;
+    }
+    .benefits_list {
+        padding: 31px 0;
+    }
+    .callback_form .line {
+        flex-direction: column;
+    }
+    .callback_form .line .submit_btn {
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .application-form_title br {
+        display: none;
+    }
+    .callback_form {
+        max-width: 680px;
+        width: 100%;
+    }
+    .advantages_item-info {
+        padding: 40px 0 40px 40px;
+    }
+    .tarif_items {
+        padding: 0px 40px;
+    }
+    .additionally_items > * {
+        width: calc(100%/2 - 30px);
+        margin-bottom: 30px;
+    }
+    .additionally_items {
+        padding: 0 70px;
+    }
+    .additionally_item-text {
+        margin-bottom: 15px;
+    }
+    .additionally_item-img {
+        margin: auto auto 0;
+    }
+    .additionally_item-img img {
+        max-width: 220px;
+        text-align: center;
+        display: block;
+    }
+    .slick-slide img {
+        width: 100%;
+    }
+    .reviews_item {
+        padding: 30px;
+    }
+    .question_form-line {
+        flex-direction: column;
+    }
+    .question_form-line > * {
+        width: 100%;
+    }
+    .question_wrap {
+        padding: 40px;
+    }
+    .callback_form .checkbox {
+        margin-top: 0;
+    }
+    .application-form_title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .callback_form {
+        padding: 40px 40px 20px 40px;
+    }
+    .company_item-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .company {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .field_box {
+        margin-left: -20px;
+    }
+    .field_box > * {
+        width: calc(100%/2 - 20px);
+        margin-left: 20px;
+    }
+    .callback_form .line .field input {
+        width: 100%;
+    }
+    .callback_form .line .field { 
+        margin-right: 0px; 
+    }
+    .advantages {
+        margin-top: 60px;
+    }
+    .tarif {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-top: 70px;
+    }
+    .additionally {
+        margin-top: 60px;
+        padding-bottom: 40px;
+    }
+    .reviews {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contacts {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .question {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .question_left {
+        margin-right: 20px;
+    }
+
+
+
+}
