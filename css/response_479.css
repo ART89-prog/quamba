@@ -70,11 +70,9 @@
     .header_logo img {
         width: 40%;
     }
-    .header-contact .phone {
-        display: none;
-    }
     .callback_btn {
         height: 45px;
+        line-height: 45px;
     }
     .header-info_title {
         font-size: 29px;
@@ -82,8 +80,16 @@
     .header-top {
         margin-bottom: 55px;
     }
+    .header-contact .phone a {
+        margin-right: 15px;
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
     .header-info_text {
         font-size: 17px;
+    }
+    .header-contact .callback_btn {
+        width: 175px;
     }
     .header-info .callback_btn {
         height: 50px;
@@ -121,6 +127,21 @@
     }
     .footer-contact .email a {
         line-height: 40px;
+    }
+    .modal {
+        padding: 35px;
+        background: #FFFFFF;
+        box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+    }
+    .modal_title {
+        font-size: 22px;
+        line-height: 127.8%;
+        margin-top: 20px;
+    }
+    .modal_text {
+        font-size: 18px;
+        line-height: 127.8%;
+        margin-top: 10px;
     }
 
 

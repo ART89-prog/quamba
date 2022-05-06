@@ -16,6 +16,8 @@
     }
     .header-contact {
         flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
     }
     .header-contact .phone a {
         margin-right: 30px;
